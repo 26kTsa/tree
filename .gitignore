@@ -6,6 +6,6 @@ local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
 
-MainSection:NewButton("on/off trade scam", "trade scam", function()
+MainSection:NewButton("on/off trade scam only spawn world work", "trade scam only spawn world work", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/25kTsa/test1/main/.gitignore"))()
 end)
